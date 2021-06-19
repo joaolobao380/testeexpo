@@ -45,6 +45,8 @@
   },
   "private": true,
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "src/**/*": [
+        "yarn lint --fix"
+    ]
   }
 }
